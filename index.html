@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chromebook</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Chromebook</h1>
+    <h2>New Browserの入れ方</h2>
+    <p>まず<a href="https://github.com/haru070/ChromeExtensions/raw/main/NewBrowser.zip" target="_blank">これを押して</a>ダウンロードする。次にファイルを開いてダウンロードしたNew Browser.zipをダブルタップするとzipファイルが解凍されます。すると、新しく「New Browser」というフォルダができると思います。そして、次に<span class="extension-site">chrome://extensions/</span>というサイトに入り、右上のデベロッパーモードをONにすると左上に「パッケージ化されていない拡張機能を読み込む」をクリックとファイルが開くので、先程新しく追加された「New Browser」というフォルダをクリックして開くをクリックすると新しく「New Browser」というChromeアプリが追加されたと思います。</p>
+    <h2>Win Bird 授業支援クライアント</h2>
+    <p>Win Bird 授業支援クライアントが行えること↓</p>
+    <img src="Screenshot 2024-03-12 19.38.27.png" alt="Win Bird 授業支援クライアント">
+    <p>1. まず、このIDをコピーしてください　aenkapbklopnjfadjnjghcbnnloadlpl　次に、<span class="service-worker">chrome://serviceworker-internals/</span>というサイトに飛んでください。</p>
+    <p>2. 入ったらCtrl+gまたはCtrl+fを押してください。すると右上になんか出るので、先程コピーしたIDをペーストしてください。そしたら、こんな感じになると思います。</p>
+    <img src="Screenshot 2024-03-12 19.45.48.png" alt="Screenshot 2024-03-12 19.45.48.png">
+    <p>3. 上のようなのがでたら、Inspectを押してください。するとなんか出るのでそこに <code>while (true){}</code> このコードを打ち込んでください。そして、Enterを押すとなにもならないけど、それでOKです。</p>
+</div>
+
+</body>
+</html>
